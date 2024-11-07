@@ -27,7 +27,7 @@ ARG BUILD_HASH
 WORKDIR /app
 
 COPY package.json package-lock.json ./
-RUN node --max-old-space-size=4096 app.js 
+RUN node --max-old-space-size=4096
 RUN npm ci
 
 COPY . .

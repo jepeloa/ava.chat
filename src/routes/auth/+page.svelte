@@ -100,7 +100,7 @@
 
 <svelte:head>
 	<title>
-		{`${$WEBUI_NAME}`}
+		{`Ava - Avalian`}
 	</title>
 </svelte:head>
 

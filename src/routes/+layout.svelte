@@ -119,6 +119,7 @@
 				: bestMatchingLanguage(languages, browserLanguages, 'en-US');
 			$i18n.changeLanguage(lang);
 		}
+		$i18n.changeLanguage('es-ES');
 
 		if (backendConfig) {
 			// Save Backend Status to Store

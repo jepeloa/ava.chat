@@ -197,7 +197,7 @@
 </script>
 
 <svelte:head>
-	<title>'{$WEBUI_NAME}'</title>
+	<title>'Ava - Avalian'</title>
 	<link crossorigin="anonymous" rel="icon" href="{WEBUI_BASE_URL}/static/favicon.png" />
 
 	<!-- rosepine themes have been disabled as it's not up to date with our latest version. -->

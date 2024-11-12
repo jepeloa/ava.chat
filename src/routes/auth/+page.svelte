@@ -159,7 +159,7 @@
 						<div class="mb-1">
 							<div class=" text-2xl font-medium">
 								{#if mode === 'signin'}
-									{$i18n.t(`Ingresar a Ava`, { WEBUI_NAME: $WEBUI_NAME })}
+									{$i18n.t(`Ingresar a Ava`, { WEBUI_NAME: 'Ava - Avalian' })}
 								{:else}
 									{$i18n.t(`Sign up to {{WEBUI_NAME}}`, { WEBUI_NAME: $WEBUI_NAME })}
 								{/if}

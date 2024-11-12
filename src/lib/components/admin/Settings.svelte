@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import { getContext, tick, onMount } from 'svelte';
 	import { toast } from 'svelte-sonner';
 
@@ -427,4 +427,4 @@
 			/>
 		{/if}
 	</div>
-</div>
+</div> -->

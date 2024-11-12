@@ -30,7 +30,7 @@ services:
       - 'ENABLE_OAUTH_SIGNUP=true'
       - 'ENABLE_LOGIN_FORM=true'
       - 'ENABLE_SIGNUP=false'
-      - 'DEFAULT_USER_ROLE=admin'
+      - 'DEFAULT_USER_ROLE=user'
       - 'GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID}'
       - 'GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET}'
       - 'SAFE_MODE=true'

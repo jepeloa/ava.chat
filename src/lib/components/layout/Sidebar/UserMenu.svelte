@@ -37,10 +37,10 @@
 			align="start"
 			transition={(e) => fade(e, { duration: 100 })}
 		>
-			<button
+			<!-- <button
 				class="flex rounded-md py-2 px-3 w-full hover:bg-gray-50 dark:hover:bg-gray-800 transition"
 				on:click={async () => {
-					await showSettings.set(false);
+					await showSettings.set(true);
 					show = false;
 
 					if ($mobile) {
@@ -70,7 +70,7 @@
 					</svg>
 				</div>
 				<div class=" self-center">{$i18n.t('Settings')}</div>
-			</button>
+			</button> -->
 
 			<button
 				class="flex rounded-md py-2 px-3 w-full hover:bg-gray-50 dark:hover:bg-gray-800 transition"

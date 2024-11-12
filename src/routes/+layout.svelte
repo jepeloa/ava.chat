@@ -117,7 +117,7 @@
 			const lang = backendConfig.default_locale
 				? backendConfig.default_locale
 				: bestMatchingLanguage(languages, browserLanguages, 'en-US');
-			$i18n.changeLanguage(lang);
+			$i18n.changeLanguage('es');
 		}
 
 		if (backendConfig) {

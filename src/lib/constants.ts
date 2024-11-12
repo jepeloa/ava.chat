@@ -3,7 +3,7 @@ import { writable } from 'svelte/store';
 // import { version } from '../../package.json';
 
 export const APP_NAME = writable("Ava - Avalian");;
-
+APP_NAME.set("Ava - Avalian");
 export const WEBUI_HOSTNAME = browser ? (dev ? `${location.hostname}:8080` : ``) : '';
 export const WEBUI_BASE_URL = browser ? (dev ? `http://${WEBUI_HOSTNAME}` : ``) : ``;
 export const WEBUI_API_BASE_URL = `${WEBUI_BASE_URL}/api/v1`;

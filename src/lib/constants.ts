@@ -1,7 +1,8 @@
 import { browser, dev } from '$app/environment';
+import { writable } from 'svelte/store';
 // import { version } from '../../package.json';
 
-export const APP_NAME = `Ava - Avalian`;
+export const APP_NAME = writable("Ava - Avalian");;
 
 export const WEBUI_HOSTNAME = browser ? (dev ? `${location.hostname}:8080` : ``) : '';
 export const WEBUI_BASE_URL = browser ? (dev ? `http://${WEBUI_HOSTNAME}` : ``) : ``;

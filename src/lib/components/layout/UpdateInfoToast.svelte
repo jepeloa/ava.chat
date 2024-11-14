@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 	import { getContext, createEventDispatcher } from 'svelte';
 
 	const dispatch = createEventDispatcher();
@@ -36,4 +36,4 @@
 			<XMark />
 		</button>
 	</div>
-</div>
+</div> -->

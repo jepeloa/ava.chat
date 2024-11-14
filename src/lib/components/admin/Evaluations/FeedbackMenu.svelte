@@ -18,7 +18,7 @@
 	let show = false;
 </script>
 
-<!-- <Dropdown bind:show on:change={(e) => {}}>
+<Dropdown bind:show on:change={(e) => {}}>
 	<Tooltip content={$i18n.t('More')}>
 		<slot />
 	</Tooltip>
@@ -43,4 +43,4 @@
 			</DropdownMenu.Item>
 		</DropdownMenu.Content>
 	</div>
-</Dropdown> -->
+</Dropdown>

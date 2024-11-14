@@ -22,7 +22,7 @@
 	});
 </script>
 
-<Modal bind:show>
+<!-- <Modal bind:show>
 	<div class="px-5 pt-4 dark:text-gray-300 text-gray-700">
 		<div class="flex justify-between items-start">
 			<div class="text-xl font-semibold">
@@ -117,4 +117,4 @@
 			</button>
 		</div>
 	</div>
-</Modal>
+</Modal> -->

@@ -328,7 +328,7 @@
 				}
 			}
 
-			if (value) {   //saco controles
+			if (!value) {
 				showCallOverlay.set(false);
 				showOverview.set(false);
 				showArtifacts.set(false);

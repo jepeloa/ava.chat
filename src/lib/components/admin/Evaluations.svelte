@@ -42,7 +42,7 @@
 	let tagEmbeddings = new Map();
 
 	let loaded = false;
-	let loadingLeaderboard = true;
+	let loadingLeaderboard = false;
 	let debounceTimer;
 
 	$: paginatedFeedbacks = feedbacks.slice((page - 1) * 10, page * 10);

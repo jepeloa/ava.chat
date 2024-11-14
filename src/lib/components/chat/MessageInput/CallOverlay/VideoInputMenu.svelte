@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 	import { DropdownMenu } from 'bits-ui';
 	import { flyAndScale } from '$lib/utils/transitions';
 	import { getContext, createEventDispatcher } from 'svelte';
@@ -48,4 +48,4 @@
 			{/each}
 		</DropdownMenu.Content>
 	</div>
-</Dropdown>
+</Dropdown> -->

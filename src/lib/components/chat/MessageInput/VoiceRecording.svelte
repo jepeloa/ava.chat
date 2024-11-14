@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 	import { toast } from 'svelte-sonner';
 	import { createEventDispatcher, tick, getContext, onMount, onDestroy } from 'svelte';
 	import { config, settings } from '$lib/stores';
@@ -505,4 +505,4 @@
 		width: 2px;
 		background-color: #4a5aba; /* or whatever color you need */
 	}
-</style>
+</style> -->

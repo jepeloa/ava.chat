@@ -15,7 +15,7 @@
 </script>
 
 {#if show}
-	<div
+	<!-- <div
 		bind:this={overlayElement}
 		class="fixed {$showSidebar
 			? 'left-0 md:left-[260px] md:w-[calc(100%-260px)]'
@@ -31,5 +31,5 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 {/if}
